@@ -14,26 +14,7 @@ export default function Home() {
   }
   return (
     <div className='relative'>
-      <Dock direction="middle">
-        <DockIcon >
-          <a href='/about-us'>
-          <Icons.gitHub className="size-6" />
-          </a>
-          
-        </DockIcon>
-        <DockIcon>
-          <button onClick={increment}>
-          <Icons.googleDrive className="size-6" />
-          </button>
-        
-        </DockIcon>
-        <DockIcon>
-          <Icons.notion className="size-6" />
-        </DockIcon>
-        <DockIcon>
-          <Icons.whatsapp className="size-6" />
-        </DockIcon>
-      </Dock>
+     
 
       <h1>hyy aditiya</h1>
       <h2>{count}</h2>
